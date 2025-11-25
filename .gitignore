@@ -1,45 +1,9 @@
-# -----------------------------
-# Python
-# -----------------------------
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.log
-
-# Virtual environments
-env/
-venv/
-.venv/
-
-# -----------------------------
-# Jupyter / Colab
-# -----------------------------
-.ipynb_checkpoints/
-*.ipynb
-
-# -----------------------------
-# Model Checkpoints (HUGE)
-# -----------------------------
 checkpoints/
+data/
 *.pth
-*.bin
 *.pt
-
-# -----------------------------
-# Data (optional)
-# -----------------------------
-data/raw/
-data/sft/
-data/preferences/
-data/cache/
-
-# Keep vocab + merges only
-!data/vocab/vocab.json
-!data/vocab/merges.txt
-
-# -----------------------------
-# OS Junk
-# -----------------------------
-.DS_Store
-Thumbs.db
+*.bin
+*.ckpt
+__pycache__/
+outputs/
+wandb/
