@@ -1,0 +1,276 @@
+Explain reinforcement learning in simple terms.
+What is the difference between supervised and unsupervised learning?
+Describe how transformers work in deep learning.
+Explain overfitting and how to reduce it.
+What is gradient descent and why is it important?
+Write a simple explanation of how LLMs generate text.
+How do self-attention mechanisms work?
+Explain what a GPU is and why AI models need them.
+Describe the concept of embeddings.
+What are loss functions in machine learning?
+Explain what a neural network is to a beginner.
+Describe how backpropagation works.
+Explain the difference between AI, ML, and deep learning.
+What is an activation function?
+How do convolutional neural networks work?
+Explain how attention differs from convolution.
+What is transfer learning?
+Describe the concept of fine-tuning a model.
+Explain the difference between training and inference.
+What is a language model?
+Describe how tokenization works.
+Explain positional embeddings.
+What is a dataset and why is it important?
+How do you split a dataset into train, val, and test?
+What is regularization in machine learning?
+Explain dropout in neural networks.
+Describe the vanishing gradient problem.
+What are large language models used for?
+Explain what a parameter is in an ML model.
+Describe what gradient clipping is.
+Explain what normalization layers do.
+What is batch normalization?
+What is layer normalization?
+Explain the purpose of the softmax function.
+Describe how RLHF works.
+Explain the idea of reward modeling.
+Describe PPO in simple words.
+Explain what KL divergence is.
+What is the role of preference datasets in RLHF?
+Describe how model alignment works.
+What is supervised fine-tuning?
+Explain what prompt engineering is.
+Describe why token limits matter.
+Explain why LLMs sometimes hallucinate.
+How do you evaluate an AI model?
+What is perplexity in language modeling?
+Describe beam search in text generation.
+Explain greedy sampling.
+What is top-k sampling?
+What is top-p sampling?
+Describe nucleus sampling.
+Explain what embedding space is.
+What is cosine similarity?
+How do vector databases work?
+Explain what knowledge distillation is.
+Describe model quantization.
+Explain what mixed-precision training means.
+What is gradient accumulation?
+Describe how checkpoints work in model training.
+Explain the idea of model scaling laws.
+Describe parameter-efficient training methods.
+What is LoRA fine-tuning?
+Explain what a transformer block contains.
+What is a multi-head attention mechanism?
+How does residual connection help training?
+What is a feed-forward network?
+Explain causal masking.
+Describe decoding temperature.
+What is zero-shot learning?
+What is few-shot learning?
+Explain chain-of-thought prompting.
+Describe step-by-step reasoning.
+Write a simple definition of probability.
+Explain the law of large numbers.
+What is a random variable?
+Describe conditional probability.
+Explain Bayes' theorem.
+What is correlation vs causation?
+Describe what a normal distribution is.
+Explain variance and standard deviation.
+What is linear regression used for?
+Describe logistic regression.
+Explain the concept of hypothesis testing.
+What is a p-value?
+What is an economic recession?
+Explain inflation in simple terms.
+What causes unemployment?
+Describe how supply and demand work.
+Explain GDP in simple terms.
+What is monetary policy?
+Describe how interest rates affect consumers.
+What is a stock market index?
+Explain what diversification means.
+What is a bond?
+Describe cryptocurrency in simple words.
+Explain blockchain technology.
+What is a smart contract?
+Describe cloud computing.
+Explain what APIs are.
+Describe how operating systems manage memory.
+What is multithreading?
+Explain how networks transmit data.
+What is a database?
+Describe SQL vs NoSQL.
+Explain ACID properties.
+What is normalization in databases?
+Describe what an algorithm is.
+Explain time complexity.
+Describe Big O notation.
+What is recursion?
+Explain dynamic programming.
+Describe graph search algorithms.
+What is Dijkstra's algorithm?
+Explain what BFS and DFS are.
+Describe what hashing is.
+Explain binary search.
+What is a compiler?
+Describe how programming languages are executed.
+Explain static typing vs dynamic typing.
+What is object-oriented programming?
+Describe functional programming.
+Explain what a class and object are.
+Describe encapsulation.
+Explain inheritance in simple terms.
+What is polymorphism?
+Describe abstraction.
+Explain API rate limits.
+What is version control?
+Describe how Git works.
+Explain what a pull request is.
+Describe continuous integration.
+What is Docker used for?
+Explain virtualization.
+Describe Kubernetes in simple words.
+What is a container registry?
+Explain microservices architecture.
+Describe monolithic vs microservices.
+What is latency?
+Describe bandwidth in networking.
+Explain what encryption is.
+Describe symmetric vs asymmetric encryption.
+What is a digital signature?
+Explain HTTPS.
+Describe firewalls.
+What is a VPN?
+Explain multi-factor authentication.
+Describe ethical hacking.
+What is phishing?
+Explain social engineering.
+Describe cybersecurity best practices.
+What is an IP address?
+What is DNS?
+Explain how the internet routes traffic.
+Describe zero-trust security.
+What is a data breach?
+Explain cloud storage.
+Describe edge computing.
+What is the IoT (Internet of Things)?
+Explain autonomous vehicles.
+Describe robotics in manufacturing.
+Explain how sensors collect data.
+Describe drone technology.
+Explain renewable energy sources.
+What is solar power?
+Describe wind turbines.
+Explain geothermal energy.
+Describe battery storage technology.
+What is climate change?
+Explain carbon footprint.
+What is sustainable agriculture?
+Describe water scarcity.
+Explain global warming.
+What is biodiversity?
+Describe ecosystems.
+Explain natural selection.
+What is DNA?
+Describe genes and chromosomes.
+Explain mutation.
+What is photosynthesis?
+Describe how plants grow.
+Explain the food chain.
+Describe human digestion.
+Explain how the brain works.
+Describe the human immune system.
+Explain how vaccines work.
+Describe metabolism.
+Explain sleep cycles.
+Describe mental health.
+What is stress?
+Explain mindfulness.
+Describe emotional intelligence.
+What is motivation?
+Explain productivity.
+Describe habit formation.
+What is critical thinking?
+Explain metacognition.
+Describe logical reasoning.
+What is decision-making?
+Explain memory.
+Describe how the eyes work.
+What is hearing?
+Explain taste and smell.
+Describe the musculoskeletal system.
+Explain blood circulation.
+Describe how the heart pumps blood.
+What is diabetes?
+Explain hypertension.
+Describe anemia.
+Explain first aid basics.
+Describe good nutrition.
+Explain exercise benefits.
+What is yoga?
+Describe meditation.
+Explain the importance of hydration.
+Describe the differences between introverts and extroverts.
+Explain personality traits.
+What is leadership?
+Describe teamwork.
+Explain conflict resolution.
+Describe negotiation skills.
+Explain effective communication.
+Describe public speaking tips.
+What is time management?
+Explain goal setting.
+Describe long-term planning.
+Explain entrepreneurship.
+Describe innovation.
+What is design thinking?
+Explain product development.
+Describe market research.
+Explain branding.
+Describe customer experience.
+What is UI/UX design?
+Explain mobile app development.
+Describe backend development.
+Explain frontend development.
+What is full-stack engineering?
+Describe API integration.
+Explain testing and debugging.
+Describe software architecture.
+What is cloud deployment?
+Explain serverless computing.
+Describe continuous deployment.
+Explain logging and monitoring.
+Describe A/B testing.
+What is data visualization?
+Explain dashboards.
+Describe business intelligence.
+Explain KPIs.
+Describe statistical modeling.
+What is a data pipeline?
+Describe ETL.
+Explain feature engineering.
+Describe model evaluation metrics.
+What is precision and recall?
+Explain F1 score.
+Describe confusion matrix.
+What is ROC-AUC?
+Explain t-tests.
+Describe correlation analysis.
+What is PCA?
+Explain clustering methods.
+Describe k-means clustering.
+What is hierarchical clustering?
+Explain anomaly detection.
+Describe time-series analysis.
+What is autoregression?
+Explain forecasting.
+Describe reinforcement learning agents.
+What is an environment in RL?
+Explain rewards and policies.
+Describe MDPs.
+What is Q-learning?
+Explain exploration vs exploitation.
+Describe policy gradients.
+Explain value functions.

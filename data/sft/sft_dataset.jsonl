@@ -1,0 +1,260 @@
+{"prompt":"Explain reinforcement learning in simple terms.","response":"Reinforcement learning is a method where an agent learns by receiving rewards or penalties for its actions."}
+{"prompt":"What is supervised learning?","response":"Supervised learning trains a model using labeled examples so it can make predictions on new data."}
+{"prompt":"Describe how transformers work.","response":"Transformers use self-attention to understand relationships between tokens, enabling parallel processing."}
+{"prompt":"Explain overfitting.","response":"Overfitting happens when a model memorizes training data instead of learning general patterns, reducing performance on new data."}
+{"prompt":"What is gradient descent?","response":"Gradient descent is an optimization algorithm that adjusts weights by following the direction of lowest error."}
+{"prompt":"Explain neural networks.","response":"Neural networks are models inspired by the brain that learn patterns through interconnected nodes."}
+{"prompt":"What are embeddings?","response":"Embeddings map items into dense vectors that encode semantic meaning."}
+{"prompt":"Describe backpropagation.","response":"Backpropagation computes gradients by passing error backward through the network so weights can update."}
+{"prompt":"What is an activation function?","response":"Activation functions introduce non-linearity, helping networks learn complex patterns."}
+{"prompt":"Explain dropout.","response":"Dropout randomly disables neurons during training to reduce overfitting."}
+{"prompt":"What is transfer learning?","response":"Transfer learning reuses knowledge from a pre-trained model to improve learning on a related task."}
+{"prompt":"Explain causal masking.","response":"Causal masking prevents the model from seeing future tokens, allowing left-to-right generation."}
+{"prompt":"Describe beam search.","response":"Beam search tracks multiple candidate sequences at once to find more likely outputs."}
+{"prompt":"What is sampling temperature?","response":"Temperature controls randomness in generation; higher temperatures create more varied outputs."}
+{"prompt":"Explain PPO.","response":"PPO is a reinforcement learning algorithm that updates policies conservatively to prevent instability."}
+{"prompt":"Describe KL divergence.","response":"KL divergence measures the difference between two probability distributions and guides stable RLHF updates."}
+{"prompt":"Explain what a dataset is.","response":"A dataset is a structured or unstructured collection of data used for training models."}
+{"prompt":"Describe supervised fine-tuning.","response":"Supervised fine-tuning trains a pretrained model on labeled examples to align it with desired responses."}
+{"prompt":"What is prompt engineering?","response":"Prompt engineering involves crafting inputs that guide models to produce better outputs."}
+{"prompt":"Explain hallucination in AI.","response":"Hallucination occurs when a model generates plausible-sounding but incorrect information."}
+{"prompt":"What is perplexity?","response":"Perplexity measures how well a language model predicts data; lower values mean better predictions."}
+{"prompt":"Explain greedy decoding.","response":"Greedy decoding selects the most probable next token at each step."}
+{"prompt":"Describe normalization layers.","response":"Normalization layers stabilize training by keeping activations within consistent ranges."}
+{"prompt":"What is a convolutional neural network?","response":"CNNs apply filters to images to extract features such as edges and textures."}
+{"prompt":"Explain embeddings in NLP.","response":"Embeddings represent words as dense vectors capturing their semantic meaning."}
+{"prompt":"Describe tokenization.","response":"Tokenization breaks text into subunits such as words or subwords for model processing."}
+{"prompt":"Explain model quantization.","response":"Quantization reduces numerical precision of weights to make models faster and lighter."}
+{"prompt":"What is LoRA?","response":"LoRA adds small trainable matrices to a frozen model to fine-tune efficiently."}
+{"prompt":"Describe ethical AI.","response":"Ethical AI ensures fairness, transparency, and accountability in AI systems."}
+{"prompt":"Explain data augmentation.","response":"Data augmentation artificially increases dataset diversity through transformations."}
+{"prompt":"What is few-shot learning?","response":"Few-shot learning enables models to generalize from very few examples using prior knowledge."}
+{"prompt":"Describe decision trees.","response":"Decision trees split data based on rules to make predictions."}
+{"prompt":"What is logistic regression?","response":"Logistic regression models binary outcomes using a sigmoid function."}
+{"prompt":"Explain batch size.","response":"Batch size determines how many samples are processed before gradient updates."}
+{"prompt":"Describe attention mechanism.","response":"Attention helps a model weigh important parts of input sequences."}
+{"prompt":"What is a loss function?","response":"A loss function measures error between predictions and true labels."}
+{"prompt":"Explain vector databases.","response":"Vector databases store embeddings for efficient similarity search."}
+{"prompt":"What is cosine similarity?","response":"Cosine similarity measures similarity between vectors based on direction."}
+{"prompt":"Describe generative AI.","response":"Generative AI creates content like text or images from learned patterns."}
+{"prompt":"Explain multi-head attention.","response":"Multi-head attention allows models to attend to information from different representation subspaces."}
+{"prompt":"What is dataset splitting?","response":"Dataset splitting divides data into training, validation, and test sets."}
+{"prompt":"Explain sampling temperature.","response":"Temperature controls the randomness of generated tokens."}
+{"prompt":"Describe reward modeling.","response":"Reward modeling trains a model to score responses based on human preferences."}
+{"prompt":"Explain RLHF.","response":"RLHF uses human preference data and reinforcement learning to align AI behavior with desired outputs."}
+{"prompt":"What is linear regression?","response":"Linear regression fits a line through data to predict continuous values."}
+{"prompt":"Describe p-value.","response":"A p-value measures the strength of evidence against a null hypothesis."}
+{"prompt":"Explain inflation.","response":"Inflation is the rise in general price levels over time, reducing purchasing power."}
+{"prompt":"What causes unemployment?","response":"Unemployment is caused by factors such as economic downturns, automation, or skill mismatches."}
+{"prompt":"Explain supply and demand.","response":"Supply and demand describes how prices change based on availability and consumer desire."}
+{"prompt":"Describe GDP.","response":"GDP measures the total value of goods and services produced within a country."}
+{"prompt":"What is monetary policy?","response":"Monetary policy involves controlling interest rates and money supply to stabilize the economy."}
+{"prompt":"Explain interest rates.","response":"Interest rates represent the cost of borrowing money and influence economic activity."}
+{"prompt":"Describe a stock market index.","response":"A stock index tracks the performance of a group of stocks, representing market trends."}
+{"prompt":"What is diversification?","response":"Diversification reduces risk by spreading investments across various assets."}
+{"prompt":"Explain cryptocurrency.","response":"Cryptocurrency is a digital asset secured by cryptography and recorded on decentralized ledgers."}
+{"prompt":"Describe blockchain.","response":"Blockchain is a distributed ledger technology that stores transactions securely and transparently."}
+{"prompt":"What is a smart contract?","response":"Smart contracts are self-executing programs that run on blockchains when conditions are met."}
+{"prompt":"Explain cloud computing.","response":"Cloud computing provides on-demand computing resources delivered over the internet."}
+{"prompt":"Describe operating systems.","response":"Operating systems manage hardware resources and provide an interface for applications."}
+{"prompt":"What is multithreading?","response":"Multithreading allows tasks to run concurrently to improve performance."}
+{"prompt":"Explain networks.","response":"Networks connect devices to share information and resources."}
+{"prompt":"Describe SQL.","response":"SQL is a language used to manage and query relational databases."}
+{"prompt":"What are ACID properties?","response":"ACID ensures reliable database transactions with atomicity, consistency, isolation, and durability."}
+{"prompt":"Describe normalization.","response":"Normalization structures databases to reduce redundancy and improve consistency."}
+{"prompt":"Explain algorithms.","response":"Algorithms are step-by-step instructions to solve problems or perform tasks."}
+{"prompt":"What is Big O notation?","response":"Big O notation describes the worst-case complexity of an algorithm."}
+{"prompt":"Explain recursion.","response":"Recursion occurs when a function calls itself to break problems into smaller ones."}
+{"prompt":"Describe dynamic programming.","response":"Dynamic programming solves problems by storing subproblem results to avoid redundant computations."}
+{"prompt":"Explain BFS.","response":"Breadth-first search explores neighbors level by level."}
+{"prompt":"Describe DFS.","response":"Depth-first search explores as far as possible before backtracking."}
+{"prompt":"What is hashing?","response":"Hashing maps data to fixed-size values, enabling fast lookup."}
+{"prompt":"Describe binary search.","response":"Binary search finds items in sorted lists by repeatedly halving the search space."}
+{"prompt":"Explain compilers.","response":"Compilers translate high-level code into machine instructions."}
+{"prompt":"Describe static typing.","response":"Static typing checks variable types at compile time."}
+{"prompt":"Explain OOP.","response":"OOP organizes code into classes and objects with encapsulation, inheritance, and polymorphism."}
+{"prompt":"Describe inheritance.","response":"Inheritance allows classes to reuse and extend functionality from parent classes."}
+{"prompt":"Explain testing.","response":"Software testing verifies that code works as expected and catches bugs."}
+{"prompt":"Describe Docker.","response":"Docker packages applications into containers to ensure consistent environments."}
+{"prompt":"Explain virtualization.","response":"Virtualization creates simulated computing environments on physical hardware."}
+{"prompt":"Describe Kubernetes.","response":"Kubernetes orchestrates and manages containers across clusters."}
+{"prompt":"What are microservices?","response":"Microservices break applications into independent, deployable services."}
+{"prompt":"Explain encryption.","response":"Encryption secures data by converting it into unreadable form using mathematical algorithms."}
+{"prompt":"Describe HTTPS.","response":"HTTPS encrypts communication between browsers and servers to improve security."}
+{"prompt":"What is a VPN?","response":"A VPN encrypts your connection and routes it through remote servers for privacy."}
+{"prompt":"Explain phishing.","response":"Phishing is a cyberattack where attackers trick users into revealing sensitive information."}
+{"prompt":"Describe cloud storage.","response":"Cloud storage allows users to save files remotely and access them from anywhere."}
+{"prompt":"What is IoT?","response":"The Internet of Things connects everyday devices to the internet for data exchange."}
+{"prompt":"Describe autonomous vehicles.","response":"Autonomous vehicles use sensors and AI models to navigate without human input."}
+{"prompt":"Explain robotics.","response":"Robotics involves designing, building, and programming robots to perform tasks."}
+{"prompt":"What is solar energy?","response":"Solar energy converts sunlight into electricity using photovoltaic panels."}
+{"prompt":"Explain wind energy.","response":"Wind energy uses turbine blades turned by wind to generate electricity."}
+{"prompt":"What is geothermal energy?","response":"Geothermal energy uses heat from within the Earth to produce power."}
+{"prompt":"Describe battery storage technology.","response":"Battery storage systems retain excess energy for later use, helping stabilize grids."}
+{"prompt":"Explain climate change.","response":"Climate change refers to long-term shifts in temperatures and weather patterns mainly caused by human activity."}
+{"prompt":"What is carbon footprint?","response":"Carbon footprint measures the total greenhouse gases emitted by an activity or person."}
+{"prompt":"Describe biodiversity.","response":"Biodiversity refers to the variety of life on Earth, including species, genetics, and ecosystems."}
+{"prompt":"Explain natural selection.","response":"Natural selection is the process where organisms better adapted to their environment survive and reproduce."}
+{"prompt":"What is DNA?","response":"DNA is the molecule that carries genetic instructions for living organisms."}
+{"prompt":"Describe mutation.","response":"A mutation is a change in a DNA sequence that may alter traits."}
+{"prompt":"Explain photosynthesis.","response":"Photosynthesis allows plants to convert sunlight, water, and CO₂ into glucose and oxygen."}
+{"prompt":"Describe the food chain.","response":"A food chain describes how energy flows from producers to consumers and decomposers."}
+{"prompt":"Explain human digestion.","response":"Digestion breaks down food into nutrients the body can absorb and use."}
+{"prompt":"Describe how the brain works.","response":"The brain processes information, controls body functions, and enables thought and emotion."}
+{"prompt":"Explain the immune system.","response":"The immune system defends the body against infections using specialized cells."}
+{"prompt":"What are vaccines?","response":"Vaccines train the immune system to recognize and fight specific pathogens."}
+{"prompt":"Describe metabolism.","response":"Metabolism refers to the chemical processes that convert food into energy."}
+{"prompt":"Explain sleep cycles.","response":"Sleep cycles alternate between REM and non-REM phases that restore the body and mind."}
+{"prompt":"What is mental health?","response":"Mental health includes emotional, psychological, and social well-being."}
+{"prompt":"Explain stress.","response":"Stress is the body's response to challenges or threats, triggering physical and emotional reactions."}
+{"prompt":"What is mindfulness?","response":"Mindfulness involves focusing attention on the present moment without judgment."}
+{"prompt":"Describe emotional intelligence.","response":"Emotional intelligence is the ability to recognize, manage, and respond to emotions effectively."}
+{"prompt":"What is motivation?","response":"Motivation is the drive that initiates, directs, and sustains behavior."}
+{"prompt":"Explain productivity.","response":"Productivity measures how effectively tasks are completed within time and resources."}
+{"prompt":"Describe habit formation.","response":"Habit formation occurs when repeated behaviors become automatic over time."}
+{"prompt":"What is critical thinking?","response":"Critical thinking involves analyzing evidence and reasoning to make decisions."}
+{"prompt":"Explain metacognition.","response":"Metacognition is thinking about your own thinking processes."}
+{"prompt":"Describe logical reasoning.","response":"Logical reasoning uses structured thinking to draw conclusions."}
+{"prompt":"What is decision-making?","response":"Decision-making selects the best option from available choices using reasoning."}
+{"prompt":"Explain memory.","response":"Memory stores, retains, and retrieves information in the brain."}
+{"prompt":"How do eyes work?","response":"Eyes detect light using photoreceptor cells and send signals to the brain."}
+{"prompt":"Explain hearing.","response":"Hearing detects sound waves and converts them into neural signals."}
+{"prompt":"Describe taste and smell.","response":"Taste and smell detect chemicals through receptors, shaping flavor and scent perception."}
+{"prompt":"How does the heart function?","response":"The heart pumps blood throughout the body using rhythmic contractions."}
+{"prompt":"Explain blood circulation.","response":"Blood circulates through arteries, veins, and capillaries delivering oxygen and nutrients."}
+{"prompt":"What is diabetes?","response":"Diabetes affects how the body regulates blood sugar due to insulin issues."}
+{"prompt":"Explain hypertension.","response":"Hypertension is chronic high blood pressure that strains organs."}
+{"prompt":"Describe anemia.","response":"Anemia is a condition where the body lacks enough healthy red blood cells."}
+{"prompt":"What is first aid?","response":"First aid provides immediate care during emergencies before medical help arrives."}
+{"prompt":"Explain good nutrition.","response":"Good nutrition involves eating balanced meals with essential nutrients."}
+{"prompt":"Describe exercise benefits.","response":"Regular exercise improves cardiovascular health, strength, and mental well-being."}
+{"prompt":"What is yoga?","response":"Yoga combines physical postures, breathing, and meditation for mental and physical wellness."}
+{"prompt":"Explain meditation.","response":"Meditation involves calming the mind through focused awareness or breathing techniques."}
+{"prompt":"Why is hydration important?","response":"Hydration maintains bodily functions, temperature regulation, and nutrient transport."}
+{"prompt":"Explain introverts vs extroverts.","response":"Introverts recharge alone while extroverts gain energy from social interaction."}
+{"prompt":"Describe personality traits.","response":"Personality traits describe consistent patterns in thoughts, emotions, and behaviors."}
+{"prompt":"What is leadership?","response":"Leadership involves guiding and motivating others toward shared goals."}
+{"prompt":"Explain teamwork.","response":"Teamwork is collaboration where people combine skills to achieve common objectives."}
+{"prompt":"Describe conflict resolution.","response":"Conflict resolution addresses disagreements through communication and compromise."}
+{"prompt":"What are negotiation skills?","response":"Negotiation skills involve finding mutually acceptable agreements between parties."}
+{"prompt":"Explain effective communication.","response":"Effective communication clearly conveys ideas and listens actively."}
+{"prompt":"Describe public speaking.","response":"Public speaking is presenting information to an audience confidently and clearly."}
+{"prompt":"What is time management?","response":"Time management helps prioritize tasks to use time efficiently."}
+{"prompt":"Explain goal setting.","response":"Goal setting defines clear objectives and steps to achieve them."}
+{"prompt":"Describe long-term planning.","response":"Long-term planning prepares for goals that span months or years."}
+{"prompt":"Explain entrepreneurship.","response":"Entrepreneurship involves creating and managing new business ventures."}
+{"prompt":"Describe innovation.","response":"Innovation introduces new ideas, products, or methods to improve existing systems."}
+{"prompt":"What is design thinking?","response":"Design thinking is a human-centered approach to problem-solving through empathy and iteration."}
+{"prompt":"Explain product development.","response":"Product development creates, tests, and refines new products for customers."}
+{"prompt":"Describe market research.","response":"Market research gathers information about customers and competitors to inform decisions."}
+{"prompt":"What is branding?","response":"Branding builds a memorable identity through visuals, messaging, and values."}
+{"prompt":"Explain customer experience.","response":"Customer experience includes every interaction a customer has with a business."}
+{"prompt":"Describe UI/UX.","response":"UI/UX focuses on usability, visual design, and user satisfaction."}
+{"prompt":"What is frontend development?","response":"Frontend development builds the user-facing part of websites and applications."}
+{"prompt":"Explain backend development.","response":"Backend development handles servers, databases, and application logic."}
+{"prompt":"Describe full-stack development.","response":"Full-stack developers work on both frontend and backend components."}
+{"prompt":"What is API integration?","response":"API integration connects software components to share data and functionality."}
+{"prompt":"Explain debugging.","response":"Debugging finds and fixes issues that cause incorrect behavior in software."}
+{"prompt":"Describe software architecture.","response":"Software architecture defines system structure, components, and interactions."}
+{"prompt":"What is serverless computing?","response":"Serverless computing lets developers run code without managing servers."}
+{"prompt":"Explain continuous deployment.","response":"Continuous deployment automatically releases validated code changes to production."}
+{"prompt":"Describe monitoring.","response":"Monitoring tracks system performance, logs, and errors in real time."}
+{"prompt":"What is A/B testing?","response":"A/B testing compares two versions of something to measure performance differences."}
+{"prompt":"Explain dashboards.","response":"Dashboards visualize key metrics to support decision-making."}
+{"prompt":"Describe business intelligence.","response":"Business intelligence converts raw data into meaningful insights."}
+{"prompt":"What is a data pipeline?","response":"A data pipeline moves and processes data across systems for analysis."}
+{"prompt":"Explain ETL.","response":"ETL extracts, transforms, and loads data into target systems."}
+{"prompt":"Describe feature engineering.","response":"Feature engineering creates meaningful input variables to improve model performance."}
+{"prompt":"What are evaluation metrics?","response":"Evaluation metrics measure model performance using accuracy, recall, precision, etc."}
+{"prompt":"Explain F1 score.","response":"F1 score is the harmonic mean of precision and recall."}
+{"prompt":"Describe confusion matrix.","response":"A confusion matrix shows correct and incorrect predictions across categories."}
+{"prompt":"What is PCA?","response":"PCA reduces dimensionality by projecting data onto principal components."}
+{"prompt":"Explain clustering.","response":"Clustering groups similar data points based on patterns."}
+{"prompt":"Describe k-means clustering.","response":"K-means partitions data into k groups by minimizing distances to cluster centers."}
+{"prompt":"What is anomaly detection?","response":"Anomaly detection identifies unusual patterns that deviate from normal behavior."}
+{"prompt":"Explain forecasting.","response":"Forecasting predicts future values using historical patterns."}
+{"prompt":"Describe RL agents.","response":"RL agents learn actions by interacting with environments to maximize rewards."}
+{"prompt":"Explain exploration vs exploitation.","response":"Exploration tests new actions; exploitation uses known rewarding actions."}
+{"prompt":"Describe value functions.","response":"Value functions estimate expected returns from states or actions."}
+{"prompt":"What are MDPs?","response":"Markov Decision Processes formalize decision-making with states, actions, and rewards."}
+{"prompt":"Explain Q-learning.","response":"Q-learning learns action-value estimates without needing environment models."}
+{"prompt":"Describe policy gradients.","response":"Policy gradients optimize policies directly by ascending reward gradients."}
+{"prompt":"What is top-k sampling?","response":"Top-k sampling restricts token choices to the k most probable ones."}
+{"prompt":"Explain nucleus sampling.","response":"Nucleus sampling selects tokens from the smallest top-p probability mass."}
+{"prompt":"Describe human preference modeling.","response":"Preference modeling learns scoring functions based on human comparison data."}
+{"prompt":"Explain text generation.","response":"Text generation predicts sequences token by token using learned patterns."}
+{"prompt":"Describe reward shaping.","response":"Reward shaping modifies rewards to guide RL agents more efficiently."}
+{"prompt":"Explain model alignment.","response":"Model alignment ensures outputs follow human values and objectives."}
+{"prompt":"What is chain-of-thought reasoning?","response":"Chain-of-thought explains intermediate reasoning steps before answering."}
+{"prompt":"Describe positional embeddings.","response":"Positional embeddings encode token order in sequences."}
+{"prompt":"Explain entropy in ML.","response":"Entropy quantifies uncertainty in probability distributions."}
+{"prompt":"Describe regularization.","response":"Regularization reduces overfitting by penalizing complex models."}
+{"prompt":"What is early stopping?","response":"Early stopping halts training when validation loss stops improving."}
+{"prompt":"Explain model drift.","response":"Model drift is when model performance degrades due to changing data patterns."}
+{"prompt":"Describe data labeling.","response":"Data labeling assigns meaningful tags or annotations to raw data."}
+{"prompt":"What is annotation quality?","response":"Annotation quality ensures labels are accurate, consistent, and useful."}
+{"prompt":"Explain synthetic data.","response":"Synthetic data is artificially generated to improve training diversity."}
+{"prompt":"Describe batching.","response":"Batching processes multiple samples at once for efficiency."}
+{"prompt":"Explain autoregressive models.","response":"Autoregressive models generate data by predicting the next token based on previous ones."}
+{"prompt":"Describe text embeddings.","response":"Text embeddings convert text into numerical vectors representing meaning."}
+{"prompt":"Explain similarity search.","response":"Similarity search finds items with embedding vectors close to a query vector."}
+{"prompt":"Describe memory attention.","response":"Memory attention mechanisms allow models to store and retrieve information across long sequences."}
+{"prompt":"Explain truncation.","response":"Truncation cuts sequences to keep them within model token limits."}
+{"prompt":"Describe sampling seeds.","response":"Sampling seeds fix randomness to reproduce outputs."}
+{"prompt":"What is instruction tuning?","response":"Instruction tuning trains models to follow natural language commands."}
+{"prompt":"Explain reward regression.","response":"Reward regression trains a model to predict scalar rewards from text."}
+{"prompt":"Describe text normalization.","response":"Text normalization converts raw text into a consistent format such as lowercasing and removing punctuation."}
+{"prompt":"Explain tokenization.","response":"Tokenization splits text into smaller units like words or subwords for processing."}
+{"prompt":"Describe model checkpoints.","response":"Model checkpoints save snapshots of training so progress can be resumed or evaluated."}
+{"prompt":"What is gradient clipping?","response":"Gradient clipping limits gradient magnitude to stabilize training."}
+{"prompt":"Explain loss functions.","response":"Loss functions measure how far model predictions are from expected outputs."}
+{"prompt":"Describe cosine learning rate schedule.","response":"A cosine schedule gradually decreases the learning rate following a cosine curve."}
+{"prompt":"What is mixed precision training?","response":"Mixed precision training uses both FP16 and FP32 to speed up computation and reduce memory use."}
+{"prompt":"Explain gradient accumulation.","response":"Gradient accumulation simulates larger batch sizes by summing gradients over multiple steps."}
+{"prompt":"Describe vector databases.","response":"Vector databases store and search embedding vectors efficiently."}
+{"prompt":"What is RAG?","response":"Retrieval-Augmented Generation combines external knowledge retrieval with text generation."}
+{"prompt":"Explain prompt engineering.","response":"Prompt engineering designs instructions to guide model outputs effectively."}
+{"prompt":"Describe supervised learning.","response":"Supervised learning trains models using labeled examples of inputs and outputs."}
+{"prompt":"Explain unsupervised learning.","response":"Unsupervised learning discovers patterns without labeled data."}
+{"prompt":"Describe semi-supervised learning.","response":"Semi-supervised learning trains models using a mix of labeled and unlabeled data."}
+{"prompt":"What is transfer learning?","response":"Transfer learning applies knowledge from one task to improve performance on another."}
+{"prompt":"Explain fine-tuning.","response":"Fine-tuning adapts pretrained models to specific tasks by updating weights on new data."}
+{"prompt":"Describe zero-shot learning.","response":"Zero-shot learning enables models to perform tasks without direct training examples."}
+{"prompt":"Explain few-shot prompting.","response":"Few-shot prompting provides small examples to guide model behavior during inference."}
+{"prompt":"Describe self-supervised learning.","response":"Self-supervised learning creates prediction tasks from unlabeled data to learn representations."}
+{"prompt":"What is diffusion modeling?","response":"Diffusion models generate data by gradually denoising random noise."}
+{"prompt":"Explain self-attention.","response":"Self-attention computes relationships between all tokens in a sequence."}
+{"prompt":"Describe multi-head attention.","response":"Multi-head attention uses multiple attention mechanisms to capture different relationships."}
+{"prompt":"What is a transformer block?","response":"A transformer block contains attention layers, feedforward networks, and normalization."}
+{"prompt":"Explain RoPE.","response":"Rotary Position Embeddings encode positions by rotating query and key vectors."}
+{"prompt":"Describe beam search.","response":"Beam search expands multiple candidate sequences to find high-probability outputs."}
+{"prompt":"What is greedy decoding?","response":"Greedy decoding selects the most probable token at each step without exploration."}
+{"prompt":"Explain KL divergence.","response":"KL divergence measures how one probability distribution differs from another."}
+{"prompt":"Describe PPO.","response":"Proximal Policy Optimization updates policies while constraining changes for stability."}
+{"prompt":"What is a policy network?","response":"A policy network maps states to action probabilities in reinforcement learning."}
+{"prompt":"Explain value networks.","response":"Value networks estimate expected returns from states or actions."}
+{"prompt":"Describe rollout buffers.","response":"Rollout buffers store states, actions, rewards, and logits during PPO training."}
+{"prompt":"What is reward hacking?","response":"Reward hacking occurs when an agent exploits loopholes in reward design instead of learning intended behavior."}
+{"prompt":"Explain log probabilities.","response":"Log probabilities represent token likelihoods in a stable numeric format."}
+{"prompt":"Describe entropy regularization.","response":"Entropy regularization encourages exploration by penalizing low-entropy policies."}
+{"prompt":"What is batch normalization?","response":"Batch normalization stabilizes activations by normalizing them across the batch."}
+{"prompt":"Explain layer normalization.","response":"Layer normalization normalizes activations across features for each sample."}
+{"prompt":"Describe feedforward networks.","response":"Feedforward networks apply linear transformations and nonlinear activations to features."}
+{"prompt":"What is dropout?","response":"Dropout randomly disables neurons to prevent overfitting."}
+{"prompt":"Explain cross-entropy loss.","response":"Cross-entropy loss measures the difference between predicted probabilities and true labels."}
+{"prompt":"Describe teacher forcing.","response":"Teacher forcing feeds the correct next token during training to guide learning."}
+{"prompt":"What is perplexity?","response":"Perplexity measures how well a language model predicts text; lower values indicate better performance."}
+{"prompt":"Explain token probabilities.","response":"Token probabilities show the likelihood of each possible next token in a sequence."}
+{"prompt":"Describe embeddings training.","response":"Embeddings train by adjusting vectors so similar words have similar representations."}
+{"prompt":"What is dataset curation?","response":"Dataset curation selects, cleans, and organizes data to ensure high-quality training."}
+{"prompt":"Explain bias mitigation.","response":"Bias mitigation reduces harmful or unintended biases in AI systems."}
+{"prompt":"Describe hallucination prevention.","response":"Hallucination prevention improves factual reliability through training and constraints."}
+{"prompt":"What is model distillation?","response":"Model distillation transfers knowledge from a large teacher model to a smaller student model."}
+{"prompt":"Explain prompt conditioning.","response":"Prompt conditioning uses structured inputs to guide model behavior consistently."}
+{"prompt":"Describe LORA.","response":"LoRA fine-tunes models efficiently by training low-rank adapter matrices instead of full weights."}
+{"prompt":"What is quantization?","response":"Quantization reduces model precision to shrink size and accelerate inference."}
+{"prompt":"Explain serialization.","response":"Serialization saves model parameters and states for storage or transfer."}
+{"prompt":"Describe inference optimization.","response":"Inference optimization speeds up model execution using quantization, caching, and attention tricks."}
+{"prompt":"What is reward-guided decoding?","response":"Reward-guided decoding adjusts token selection using reward model scores."}
+{"prompt":"Explain evaluation baselines.","response":"Evaluation baselines provide reference points to compare model performance."}
+{"prompt":"Describe safety alignment.","response":"Safety alignment ensures models avoid harmful outputs and respect human constraints."}
