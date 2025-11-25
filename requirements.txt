@@ -1,0 +1,30 @@
+torch==2.1.0
+torchvision==0.16.0
+torchaudio==2.1.0
+
+numpy>=1.23
+regex
+tqdm
+matplotlib
+scikit-learn
+
+# Tokenizer and Text
+sentencepiece
+transformers==4.35.0
+
+# Utilities
+jsonlines
+datasets
+psutil
+
+# RLHF training helpers
+accelerate
+optuna
+
+# Jupyter (optional)
+ipykernel
+notebook
+jupyterlab
+
+# For PPO and reward model scripts
+protobuf
