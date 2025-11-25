@@ -1,9 +1,33 @@
+# Ignore model weights
 checkpoints/
-data/
 *.pth
 *.pt
+
+# Ignore training artifacts
+**/__pycache__/
+*.log
 *.bin
 *.ckpt
-__pycache__/
-outputs/
-wandb/
+
+# Ignore datasets
+data/pretrain/*
+data/preferences/*
+data/sft/*
+data/processed/*
+data/raw/*
+
+# Keep only small text files
+!data/raw/prompts.txt
+!data/sft/sft_dataset.jsonl
+!data/preferences/pairs.jsonl
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+
+# System files
+.DS_Store
+Thumbs.db
