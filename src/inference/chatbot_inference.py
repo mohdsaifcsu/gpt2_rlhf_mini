@@ -1,5 +1,5 @@
 # ================================================================
-# chatbot_inference.py — FINAL CHAT INTERFACE FOR PPO TRAINED MODEL
+# chatbot_inference.py - CHAT INTERFACE FOR PPO TRAINED MODEL
 # Compatible with:
 #  - GPT2BPETokenizer
 #  - GPT2MiniXL
@@ -17,7 +17,7 @@ from src.models.gpt2_mini_xl import GPT2MiniXL
 # Load Model
 # ================================================================
 def load_model(checkpoint_path, tokenizer, device):
-    print(f"[INFO] Loading model → {checkpoint_path}")
+    print(f"[INFO] Loading model -> {checkpoint_path}")
 
     model = GPT2MiniXL(
         vocab_size=tokenizer.vocab_size,
@@ -64,10 +64,8 @@ def generate_response(model, tokenizer, dialogue, max_new_tokens=150, top_k=50):
 
     out = out[0].tolist()
 
-    # Only keep tokens AFTER the prompt length → assistant reply
     new_tokens = out[len(input_ids):]
 
-    # Decode, remove junk spacing
     reply = tokenizer.decode(new_tokens).strip()
     return reply
 
@@ -121,7 +119,7 @@ if __name__ == "__main__":
     ckpt = "checkpoints/ppo/actor_epoch1.pth"
 
     if not os.path.exists(ckpt):
-        raise FileNotFoundError(f"Checkpoint does not exist → {ckpt}")
+        raise FileNotFoundError(f"Checkpoint does not exist -> {ckpt}")
 
     # ------------------------------------------------------------
     # Load model

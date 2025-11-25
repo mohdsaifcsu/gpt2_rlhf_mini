@@ -1,5 +1,5 @@
 # =============================================================
-# reward_model.py — FINAL STABLE REWARD MODEL FOR RLHF
+# reward_model.py - REWARD MODEL FOR RLHF
 # Based on GPT2MiniXL backbone
 # Supports: sequence scoring + ranking loss
 # =============================================================

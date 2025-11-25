@@ -1,6 +1,5 @@
 # ============================================================
-# PPO Trainer — FINAL RLHF Version
-# Clean, stable, sequence-level reward PPO
+# PPO Trainer - RLHF Version
 # ============================================================
 
 import torch
@@ -41,7 +40,7 @@ class PPOTrainer:
         for p in self.reward_model.parameters():
             p.requires_grad = False
 
-        # Independent critic head (sequence-level value estimation)
+        # Independent critic head (sequence level value estimation)
         embed_dim = actor_model.wte.weight.shape[1]
         self.critic = nn.Sequential(
             nn.Linear(embed_dim, embed_dim),
@@ -104,7 +103,7 @@ class PPOTrainer:
         }
 
     # ---------------------------------------------------------
-    # Compute reward & KL
+    # Compute reward and KL
     # ---------------------------------------------------------
     @torch.no_grad()
     def compute_reward_kl(self, full_ids, prompt_ids):
@@ -114,7 +113,7 @@ class PPOTrainer:
         # Sequence reward from Reward Model
         rm_scores = self.reward_model(x)       # shape: (B,)
 
-        # Actor & Reference logits
+        # Actor and Reference logits
         act_logits = self.actor(x)
         ref_logits = self.ref(x)
 
@@ -235,7 +234,7 @@ class PPOTrainer:
                 rep = hidden[:, -1, :].detach()
 
                 values = self.critic(rep).squeeze(-1)
-                target = re.sum(dim=1)  # sequence-level target
+                target = re.sum(dim=1)  # sequence level target
 
                 critic_loss = F.mse_loss(values, target)
 

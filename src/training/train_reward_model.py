@@ -1,6 +1,5 @@
 # =============================================================
-# train_reward_model.py (FINAL FIXED VERSION)
-# Reward Model trains ONLY the reward head, GPT is frozen.
+# train_reward_model.py
 # =============================================================
 
 import json
@@ -33,7 +32,7 @@ class PreferenceDataset(Dataset):
     def encode(self, text):
         ids = self.tokenizer.encode(text)
         if len(ids) > self.block_size:
-            ids = ids[-self.block_size:]   # Keep right-most (GPT style)
+            ids = ids[-self.block_size:]   # Keep right most
         return ids
 
     def pad(self, ids):
@@ -93,10 +92,10 @@ def train_reward_model():
         embed_dim=384,
         num_layers=12,
         num_heads=12,
-        pooling="last"        # sequence-level reward
+        pooling="last"        # sequence level reward
     ).to(device)
 
-    # Freeze GPT weights — ONLY reward head trains
+    # Freeze GPT weights - ONLY reward head trains
     for p in rm.gpt.parameters():
         p.requires_grad = False
 
@@ -149,13 +148,13 @@ def train_reward_model():
             running_loss += loss.item()
 
         avg_loss = running_loss / len(loader)
-        print(f"[INFO] Epoch {epoch+1} — Avg Reward Loss = {avg_loss:.4f}")
+        print(f"[INFO] Epoch {epoch+1} - Avg Reward Loss = {avg_loss:.4f}")
 
         save_path = f"checkpoints/reward_model/rm_epoch{epoch+1}.pth"
         os.makedirs("checkpoints/reward_model", exist_ok=True)
         torch.save({"state_dict": rm.state_dict()}, save_path)
 
-        print(f"[INFO] Saved Reward Model → {save_path}\n")
+        print(f"[INFO] Saved Reward Model -> {save_path}\n")
 
     print("Reward Model training complete!\n")
 

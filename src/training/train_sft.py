@@ -1,5 +1,5 @@
 # ===============================================================
-# train_sft.py — FINAL STABLE SFT TRAINER FOR RLHF PIPELINE
+# train_sft.py - SFT TRAINER FOR RLHF PIPELINE
 # ===============================================================
 
 import os
@@ -92,7 +92,7 @@ def train_sft():
     print("[INFO] Tokenizer loaded.")
 
     # -----------------------------------------------------------
-    # Dataset + Loader
+    # Dataset and Loader
     # -----------------------------------------------------------
     dataset = SFTDataset(DATA_PATH, tokenizer, max_len=max_len)
 
@@ -103,7 +103,7 @@ def train_sft():
         collate_fn=collate_fn,
         drop_last=True
     )
-    print(f"[INFO] Loaded SFT dataset → {len(dataset)} examples")
+    print(f"[INFO] Loaded SFT dataset -> {len(dataset)} examples")
 
     # -----------------------------------------------------------
     # Model
@@ -114,7 +114,7 @@ def train_sft():
     print("[INFO] Model loaded.")
 
     # -----------------------------------------------------------
-    # Optimizer + LR schedule
+    # Optimizer and LR schedule
     # -----------------------------------------------------------
     optimizer = AdamW(model.parameters(), lr=lr, weight_decay=0.01)
 
@@ -165,7 +165,7 @@ def train_sft():
         # Save checkpoint
         ckpt_path = os.path.join(SAVE_DIR, f"sft_epoch{epoch+1}.pth")
         torch.save(model.state_dict(), ckpt_path)
-        print(f"[INFO] Saved → {ckpt_path}")
+        print(f"[INFO] Saved -> {ckpt_path}")
 
     print("\n========== SFT TRAINING COMPLETE ==========\n")
 

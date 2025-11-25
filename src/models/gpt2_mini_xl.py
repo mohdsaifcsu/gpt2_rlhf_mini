@@ -1,5 +1,5 @@
 # ============================================================
-# gpt2_mini_xl.py — FINAL STABLE GPT MODEL
+# gpt2_mini_xl.py
 # 12 layers, 384-dim, 12 heads
 # Fully RLHF-compatible (SFT, RM, PPO)
 # ============================================================
@@ -43,7 +43,7 @@ class MultiHeadAttention(nn.Module):
         k = k.view(B, T, self.num_heads, self.head_dim).transpose(1, 2)
         v = v.view(B, T, self.num_heads, self.head_dim).transpose(1, 2)
 
-        # Scaled dot-product attention
+        # Scaled dot product attention
         att = (q @ k.transpose(-2, -1)) / (self.head_dim ** 0.5)
 
         causal = self.mask[:T, :T]

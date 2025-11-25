@@ -1,5 +1,5 @@
 # ============================================================
-# GPT-2 BPE Tokenizer (Stable RLHF Version)
+# GPT-2 BPE Tokenizer ( RLHF Version)
 # ============================================================
 
 import json

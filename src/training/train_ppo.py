@@ -1,5 +1,5 @@
 # ================================================================
-# train_ppo.py — FINAL RLHF PPO TRAINING SCRIPT
+# train_ppo.py - RLHF PPO TRAINING
 # Compatible with: GPT2MiniXL, RewardModel, PPOTrainer, GPT2BPETokenizer
 # ================================================================
 
@@ -14,7 +14,7 @@ from src.rlhf.ppo_trainer import PPOTrainer
 
 
 # ================================================================
-# Prompt Dataset (simple text per line)
+# Prompt Dataset
 # ================================================================
 class PromptDataset(Dataset):
     def __init__(self, filepath):
@@ -74,7 +74,7 @@ def train_ppo():
         print("[WARN] No pretrained actor found. PPO will start from scratch.")
 
     # ------------------------------------------------------------
-    # LOAD REFERENCE MODEL (frozen baseline)
+    # LOAD REFERENCE MODEL
     # ------------------------------------------------------------
     ref = GPT2MiniXL(
         vocab_size=tokenizer.vocab_size,
@@ -93,7 +93,7 @@ def train_ppo():
     print("[INFO] Reference model ready (frozen).")
 
     # ------------------------------------------------------------
-    # LOAD REWARD MODEL (frozen)
+    # LOAD REWARD MODEL
     # ------------------------------------------------------------
     reward_ckpt = "checkpoints/reward_model/rm_epoch1.pth"
     reward_model = RewardModel(
@@ -106,7 +106,7 @@ def train_ppo():
     ).to(device)
 
     if os.path.exists(reward_ckpt):
-        print(f"[INFO] Loading Reward Model → {reward_ckpt}")
+        print(f"[INFO] Loading Reward Model -> {reward_ckpt}")
         raw = torch.load(reward_ckpt, map_location=device)
         if isinstance(raw, dict) and "state_dict" in raw:
             raw = raw["state_dict"]

@@ -1,5 +1,5 @@
-# pretrain_gpt.py – FINAL FIXED VERSION
-# Uses full sliding-window dataset (maximizes dataset size)
+# pretrain_gpt.py
+# Uses full sliding window dataset (maximizes dataset size)
 
 import torch
 from torch.utils.data import Dataset, DataLoader
@@ -11,7 +11,7 @@ from src.tokenizer.bpe_tokenizer import GPT2BPETokenizer
 
 
 # ============================================================
-# Sliding Window Dataset (Correct version)
+# Sliding Window Dataset
 # ============================================================
 class SlidingWindowDataset(Dataset):
     def __init__(self, text_ids, block_size=256, stride=64):
@@ -52,14 +52,14 @@ def train():
     with open(text_path, "r", encoding="utf-8") as f:
         text = f.read()
 
-    print("Tokenizing corpus (this will take a moment)...")
+    print("Tokenizing corpus (this will take a moment)")
     text_ids = tokenizer.encode(text, add_special_tokens=True)
 
     # Dataset (sliding window)
     dataset = SlidingWindowDataset(
         text_ids=text_ids,
         block_size=256,
-        stride=64       # <—— Key to producing 200k+ samples
+        stride=64       # <- Key to producing 200k+ samples
     )
 
     loader = DataLoader(dataset, batch_size=16, shuffle=True)
@@ -75,7 +75,7 @@ def train():
 
     optimz = optim.AdamW(model.parameters(), lr=3e-4)
 
-    print("Starting GPT-XL pretraining...")
+    print("Starting GPT-XL pretraining")
 
     epochs = 1   # increase if needed
     for epoch in range(epochs):
